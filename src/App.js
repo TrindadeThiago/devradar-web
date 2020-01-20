@@ -124,10 +124,7 @@ function App() {
                 </div>
               </header>
               <p>{dev.bio}</p>
-              <a
-                href={`https://github.com/${dev.github_usarname}`}
-                target="_blank"
-              >
+              <a href={`https://github.com/${dev.github_username}`}>
                 Acessar perfil no Github
               </a>
             </li>
